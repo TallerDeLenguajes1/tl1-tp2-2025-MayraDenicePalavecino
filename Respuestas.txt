@@ -1,0 +1,6 @@
+TP2
+
+2)f) ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+Luego de escribir el comando git checkout main, me direcciona a la rama principal, por ende 
+no puedo ver el archivo tp2_1_2.c porque la rama main no contiene el commit que agrega a ese archivo.
