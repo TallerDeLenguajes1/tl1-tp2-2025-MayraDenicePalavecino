@@ -4,3 +4,20 @@ TP2
 
 Luego de escribir el comando git checkout main, me direcciona a la rama principal, por ende 
 no puedo ver el archivo tp2_1_2.c porque la rama main no contiene el commit que agrega a ese archivo.
+
+*En la rama main agregue un nuevo archivo que se llame Respuestas.txt y realice
+un commit para agregar este archivo al repositorio.
+En VSCode vuelva al “Source Control” ¿Qué diferencias nota?
+
+Se puede ver que en la rama main se hizo un commit, los cambios de este commit no se ven 
+reflejados en la rama Opcion_2
+
+*En el Branch main se va a combinar (merge) ambos repositorios. Para esto, utilice
+el siguiente comando:
+git merge Opcion_2 -m "merge Opcion_2"
+En VSCode vuelva al “Source Control” vea los cambios, ¿Qué nota?
+
+Al ejecutar el comando git merge Opcion_2 -m "merge Opcion_2" Git combina los cambios de la rama Opcion_2 con main. Si no hay conflictos, los archivos de Opcion_2 se integran automáticamente en main, y se crea un nuevo commit.
+
+
+
